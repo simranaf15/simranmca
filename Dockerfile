@@ -1,6 +1,6 @@
 FROM python:3.11.9-slim
 LABEL maintainer="Simran"
-ENV PYTHONUNBUFFERED 1
+ENV PYTHONUNBUFFERED=1
 
 COPY ./requirements.txt requirements.txt
 COPY ./webapp /webapp
